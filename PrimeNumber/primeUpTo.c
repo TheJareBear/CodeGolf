@@ -1,0 +1,1 @@
+k,j;main(i){for(scanf("%d",&k);k;j?:printf("%d\n",i,k--))for(j=i++;i%j--;);}

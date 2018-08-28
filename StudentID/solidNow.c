@@ -1,0 +1,1 @@
+s,t,c,v;main(){for(;c=getchar(),c>0;)if(c<11)(!(s%7)|!(s%11)|v)?puts("invalid"):puts("valid"),s=t=v=0;else{c-=48;v=(!c&&!t)?1:v;t+=9*t+c,s+=c;}}
