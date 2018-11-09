@@ -34,7 +34,11 @@ if [ -z "$check1" ]; then
 	exit
 fi
 
-cat $input | tr -d "\n \t" > $output
+cat $input | tr -d "\n\t" > $output
 
 
 echo "Done! Output written to $output"
+
+echo "Bytes written:"
+
+cat submit.c | wc -c
